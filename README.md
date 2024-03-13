@@ -1,7 +1,7 @@
 
 # Car Price Predictions
 
-![Car_Picture](Images/carpicture.png)
+![Car_Picture](Images/car_picture.png)
 
 
 # Overview
