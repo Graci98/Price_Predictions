@@ -24,17 +24,15 @@ def main():
    
     st.markdown(html_temp, unsafe_allow_html = True)
     
-    year= st.number_input("Year")
+    year= st.number_input("Year", min_value=1990, max_value=2015)
     make= st.text_input("Make")
     model= st.text_input("Model")
     odometer= st.number_input("Odometer")
     color= st.text_input("Color")
     state= st.text_input("State")
     condition = 7
-    # mmr = float(st.text_input("Listed Price"))
-    mmr = st.number_input("Listed Price")
-    vehicleage = st. number_input("Age of Vehicle")
-                # features = {"year":year, "make":make, "model" :model, "odometer":odometer, "color":color, "state":state, "transmission":transmission,"mmr":mmr, "interior":interior, "condition",:condition, "trim":trim}  
+    mmr = st.number_input("Listed Price", value=None, placeholder="Type Price")
+    vehicleage = st. number_input("Age of Vehicle", min_value=0, max_value=25) 
         
                         
     if st.button("Predicted Value"):
