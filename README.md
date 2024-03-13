@@ -1,13 +1,11 @@
-# Price_Predictions
-
-Car Price Value Application
+# Car Price Predictions
 
 
 ## Overview
-Our capstone project is focused on predicting vehicle prices using machine learning.  Our goal is to build a web application that accurately predicts vehicle prices based on inputs using our machine learning model.  To develop our model we used correlation to see how each variable impacted the vehicle selling price.  Once we explored the data and selected variables we ran a Linear and Lasso Regression Model to see which provided the best results for use in our application.  
+Our capstone project is focused on predicting vehicle prices using machine learning.  Our goal is to build a web application that accurately predicts vehicle prices based on inputs using our machine learning model.  To develop our model we used correlation to see how each variable impacted the vehicle selling price.  Once we explored the data and selected variables we ran a Linear Regression, Lasso Regression, and Principal Componenet Analysis to see which provided the most accurate results for use in our application.  
 
 
-## How to Achieve the Desired Result
+## Instructions
    1.  Clean the data, removing irrelevant/null information
    2.  Explore the data checking values/types
    3.  Look for correlation between our target and feature variables
